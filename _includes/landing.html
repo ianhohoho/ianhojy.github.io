@@ -1,6 +1,9 @@
+<style>
+  .circle-image { width: 100%; height: 100%; border-radius: 100%; object-fit: fill; object-position: center; }
+  #container { display: inline-block; position: relative}
+</style>
 <div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
-
+  <div class="col-lg-2 col-md-3 col-sm-4 col-6 text-center mt-2">
     <!-- Fine Circle Responsive Image -->
     <div id="container" class="my-2">
       <div id="dummy"></div>
@@ -8,8 +11,10 @@
         <img src="{{ site.author.image }}" alt="{{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
       </div>
     </div>
-
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
-
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-left mt-2">
+    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description_1 }}</p>
+    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description_2 }}</p>
+    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description_3 }}</p>
   </div>
 </div>

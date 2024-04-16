@@ -21,14 +21,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Coding Like Vincent Van Gogh">
-  <meta property="og:description" content="Show some support by following me!">
-  <meta property="og:image" content="https://i.imgur.com/uyDNQnn.jpg">
+  <meta property="og:title" content="Text-to-SQL LLM Applications - Prompt Injections">
+  <meta property="og:description" content="Learn how your Text-to-SQL LLM app may be vulnerable to Prompt Injections, and mitigation measures you could adopt to protect your data">
+  <meta property="og:image" content="https://media.licdn.com/dms/image/D5603AQGlnE7nlqPtiA/profile-displayphoto-shrink_200_200/0/1707742175699?e=2147483647&v=beta&t=vmChqUmLrN4xOM9zwOXFFvY5b-yAYySv4_QhPznACxo">
 
-  <title>Coding Like Vincent Van Gogh</title>
-  <meta name="description" content="Show some support by following me!">
+  <title>Text-to-SQL LLM Applications - Prompt Injections</title>
+  <meta name="description" content="Learn how your Text-to-SQL LLM app may be vulnerable to Prompt Injections, and mitigation measures you could adopt to protect your data">
 
-  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-ian.ico">
 
   <!-- Theme style -->
   <script src="/assets/js/theme.js"></script>
@@ -51,18 +51,22 @@
 <body class="h-100 d-flex flex-column">
 
   <main class="flex-shrink-0 container mt-5">
-    <nav class="navbar navbar-expand-lg navbar-themed">
+    <style>
+  .navbar { padding: 40px }
+  .navbar-collapse { padding: 40px}
+</style>
+<nav class="navbar navbar-expand-lg navbar-themed">
 
-  <a class="navbar-brand" href="/"><h5><b>portfolYOU</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Ian Ho</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-1x fa-bars text-themed"></i>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/projects/">Projects</a>
+  <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link " href="/blog/">Blog</a>
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
 
       <a class="nav-item nav-link " href="/about/">About</a>
 
@@ -74,43 +78,56 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  
+  <h1><b>Text-to-SQL LLM Applications - Prompt Injections</b></h1>
+
+<p class="post-metadata text-muted">
+  02 February 2024 -  
+  <b>less than 1 min read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#python">
+      <span class="tag badge badge-pill text-primary border border-primary">Python</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#llm">
+      <span class="tag badge badge-pill text-primary border border-primary">LLM</span>
+    </a>
+    </p>
+
+
+
+
 
 </div>
   </main>
   <footer class="mt-auto py-3 text-center">
-
   <small class="text-muted mb-2">
-    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>John Doe</strong>
+    Created Painstakingly by <strong>Ian Ho</strong>
   </small>
-
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:username@domain.com"
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:ianhojy@gmail.com"
        style="color: #6c757d"
        onMouseOver="this.style.color='#db4437'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/your_username"
+    </a><a class="social mx-1"  href="https://www.github.com/ianhojy"
        style="color: #6c757d"
        onMouseOver="this.style.color='#333333'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/your_username"
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/ianhojy"
        style="color: #6c757d"
        onMouseOver="this.style.color='#007bb5'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-linkedin-in fa-1x"></i>
-    </a><a class="social mx-1"  href="https://medium.com/@your_username"
+    </a><a class="social mx-1"  href="https://medium.com/@ianhojy"
        style="color: #6c757d"
        onMouseOver="this.style.color='#00ab6c'"
        onMouseOut="this.style.color='#6c757d'">
       <i class="fab fa-medium fa-1x"></i>
     </a>
 
-</div><small id="attribution">
-    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
-  </small>
-
+</div>
 </footer>
 
   

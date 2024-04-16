@@ -1,13 +1,12 @@
 ### Site Settings ###
-title               : portfolYOU
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+title               : Ian Ho
+description_1       : 🏫 Oxford PPE > turned > Data Scientist 👨🏻‍💻
+description_2       : 📚 Always looking for new things to learn!
+description_3       : 🤖 Passionate about Econometrics, AI & LLMs
+baseurl             : ""                  
+repository          : 
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : false             
 
 
 ### Plugins ###
@@ -25,24 +24,24 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
+  name              : Ian Ho
+  image             : https://media.licdn.com/dms/image/D5603AQGlnE7nlqPtiA/profile-displayphoto-shrink_200_200/0/1707742175699?e=2147483647&v=beta&t=vmChqUmLrN4xOM9zwOXFFvY5b-yAYySv4_QhPznACxo
+  # behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  email             : ianhojy@gmail.com
+  # facebook          : your_username
+  github            : ianhojy
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
+  linkedin          : ianhojy
+  medium            : ianhojy
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  # twitter           : your_username
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username

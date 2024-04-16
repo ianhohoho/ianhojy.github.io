@@ -1,13 +1,12 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: -hello\nand
-
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Data Scientist @ GovTech
+  from: 2023
+  to: Present
+  description: 
+    - text: "‣ Building Data Products, Pipelines & Features for Whole-of-Government Data Hub"
+    - text: "‣ Building LLM-powered Applications [Chat-with-your-Data / RAG-based Apps]"
+- title: Data Scientist @ Grab
+  from: 2022
+  to: 2023
+  description: 
+    - text: "‣ Helped to build Grab's LTV prediction Model using Deep Learning & Feature Engineering"
+    - text: "‣ Built Grab's first automated Impact Estimation Model"
